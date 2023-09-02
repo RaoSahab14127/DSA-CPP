@@ -38,3 +38,78 @@ int main() {
         cout<< "others char"<<endl;
     }
 }
+// while loops
+#include <iostream>
+using namespace std;
+int main(){
+    int input;
+    cin>>input;
+    int i = 0;
+    while(input>i){
+        cout<< "Hello"<<endl;
+        i++;
+    }
+}
+// add series loops
+#include <iostream>
+using namespace std;
+int main(){
+    int input;
+    cin>>input;
+    int i = 0;
+    int result = 0;
+    while(input>=i){
+        result = result+ i;
+        cout<< result<<endl;
+        i++;
+    }
+}
+// add even series loops
+#include <iostream>
+using namespace std;
+int main(){
+    int input;
+    cin>>input;
+    int i = 0;
+    int result = 0;
+    while(input>=i){
+        if(i%2==0){
+        result = result+ i;
+        cout<< result<<endl;}
+        i++;
+    }
+}
+// even star
+#include <iostream>
+using namespace std;
+int main(){
+    int input;
+    cin>>input;
+    int i = 0;
+    while(i<input){
+        int j = 0;
+        while(j<input){
+            cout<<"*";
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+}
+// even star
+#include <iostream>
+using namespace std;
+int main(){
+    int input;
+    cin>>input;
+    int i = 0;
+    while(i<input){
+        int j = 0;
+        while(j<input){
+            cout<<i+1;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+}
