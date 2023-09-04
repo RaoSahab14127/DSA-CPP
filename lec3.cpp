@@ -1,4 +1,4 @@
-// switch and function
+// switch and function code
 #include <iostream>
 using namespace std;
 int age_days(int a){
